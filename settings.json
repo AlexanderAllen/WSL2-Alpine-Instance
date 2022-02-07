@@ -1,0 +1,49 @@
+{
+    "files.associations": {
+        "Caddyfile": "text"
+    },
+    "git-graph.integratedTerminalShell": "/bin/zsh",
+    "git-graph.dialog.rebase.ignoreDate": false,
+    "git-graph.dialog.rebase.launchInteractiveRebase": true,
+    "git-graph.repository.showRemoteHeads": false,
+
+    "gitlens.integrations.enabled": true,
+
+    // Used by Git Graph.
+    "git.path": "/usr/bin/git",
+
+    "terminal.integrated.automationProfile.linux": {
+        "path": "/bin/zsh",
+        "color": "terminal.ansiCyan",
+        "icon": "terminal-linux",
+        // "overrideName": true,
+    },
+    "terminal.integrated.defaultProfile.linux": "WSL: Alpine Z Shell",
+
+    // Deprecated.
+    //"terminal.integrated.shell.linux":
+
+    "terminal.integrated.profiles.linux": {
+        "WSL: bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "WSL: Alpine Z Shell": {
+            "path": "/bin/zsh",
+            "color": "terminal.ansiCyan",
+            "icon": "terminal-linux",
+            "overrideName": true
+        },
+        "WSL: fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    }
+}
